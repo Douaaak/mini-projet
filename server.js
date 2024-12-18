@@ -7,6 +7,6 @@ app.listen(PORT,()=>{
     
 })
 
-app.use("/api",(req,res)=>{
+app.use("/",(req,res)=>{
 res.send("running API")
 })
